@@ -1,0 +1,28 @@
+{
+  "name": "mailing",
+  "version": "1.0.0",
+  "description": "Let's create our mailing server",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naitik0009/Redpositive-Service-task-1.git"
+  },
+  "author": "naitik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naitik0009/Redpositive-Service-task-1/issues"
+  },
+  "homepage": "https://github.com/naitik0009/Redpositive-Service-task-1#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.22"
+  }
+}
