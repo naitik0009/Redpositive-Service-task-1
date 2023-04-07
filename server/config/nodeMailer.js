@@ -13,7 +13,7 @@ try {
     console.log();
     let info = await transporter.sendMail({
         from:'subarnamiyer@gmail.com', 
-        to: "naitikgupta12@gmail.com", 
+        to: "info@redpositive.in", 
         subject: `from : ${phone}`,
         text: `${name}`, 
         html: `<b>from : ${email}<br>message : ${message}</b>`, // html body
